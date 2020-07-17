@@ -1,0 +1,50 @@
+body {
+    background: rgb(70, 142, 236);
+    font: normal 15px arial;
+
+
+}
+
+header {
+    color: white;
+    text-align: center;
+
+}
+
+section {
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 360px;
+    height: 450px;
+    margin: auto;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.363);
+}
+
+#dados{
+    color: blue;
+}
+
+#dados input {
+    color: red;
+}
+
+#res input {
+    color: blue;
+}
+
+select#resultado {
+    width: 360px;
+    height: 240px;
+    
+}
+
+div {
+    padding: 8px;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    font-style: italic;
+}

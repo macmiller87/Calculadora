@@ -1,0 +1,42 @@
+<!Doctype html>
+<html lang="pt-br">
+
+<head>
+    <title>CALCULADORA</title>
+    <meta charset="utf-8">
+</head>
+<link rel="stylesheet" href="estilo.p3.css">
+<script language="javascript" src="javascript.p3.js"></script>
+<body>
+    <header>
+        <h1>CALCULADORA</h1>
+    </header>
+    <section>
+        <div id="dados">
+            <br>
+            Número 1 <input type="number" name="numero1" id="txtnúmero1">
+            <br><br>
+            Número 2 <input type="number" name="numero2" id="txtnúmero2">
+            <br>
+            <br>
+            <br>
+            <br>
+            <input type="button" value="somar" onclick="somar()">
+            <input type="button" value="subtrair" onclick="subtrair()">
+            <input type="button" value="multiplicar" onclick="multiplicar()">
+            <input type="button" value="dividir" onclick="dividir()">
+            <input type="button" value="potência" onclick="potência()">
+            <br><br>
+        </div>
+        <div id="res">
+            <br>
+            <select name="resultado" id="resultado" size="6"></select>
+            <br>
+            <input type="button" value="limpar" onclick="limpar()">
+        </div>
+    </section>
+    <footer>
+        <h2>&copy;MACMILLER</h2>
+    </footer>
+</body>
+</html>
